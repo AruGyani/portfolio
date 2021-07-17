@@ -22,10 +22,10 @@ function Navigation() {
             <Collapse isOpen={isOpen} navbar>
                 <Nav className="ms-auto test" navbar>
                     <NavItem className="item">
-                        <NavLink className="link" href="/about">about</NavLink>
+                        <NavLink className="link" disabled href="/about">about</NavLink>
                     </NavItem>
                     <NavItem className="item">
-                        <NavLink className="link" href="/projects">projects</NavLink>
+                        <NavLink className="link" href="/#work">projects</NavLink>
                     </NavItem>
                     <NavItem className="item">
                         <NavLink className="link" href="https://linkedin.com/in/arugyani">

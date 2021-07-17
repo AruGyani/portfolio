@@ -4,7 +4,7 @@
 }
 
 :root {
-    --beige: #eae7de;
+    --beige: #edf5e1;
     --maize: #e8c547;
     --jet: #30323D;
     --glaucous: #5c80bc;
@@ -27,4 +27,14 @@ body, html {
 .fade-enter.fade-enter-active {
     opacity: 1;
     transition: opacity 250ms ease-in;
+}
+
+a {
+    color: black;
+
+    transition: color 0.3s ease-out;
+}
+
+a:hover {
+    color: #5cdb95;
 }

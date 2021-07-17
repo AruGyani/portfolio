@@ -1,0 +1,13 @@
+.desitrak {
+    padding-top: 5em;
+}
+
+div a {
+    color: black;
+
+    transition: color 0.3s ease-out;
+}
+
+div a:hover {
+    color: #5cdb95;
+}

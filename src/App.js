@@ -3,6 +3,7 @@ import './styles/App.css';
 import Home from './views/Home';
 import About from './views/About';
 import Projects from './views/Projects';
+import DesiTrak from './views/DesiTrak';
 
 import {
   BrowserRouter as Router,
@@ -33,6 +34,9 @@ function Content() {
             </Route>
             <Route exact path="/projects">
               <Projects/>
+            </Route>
+            <Route exact path="/projects/desitrak">
+              <DesiTrak/>
             </Route>
             <Route path='*'>
               <div>Error. Page Not Found.</div>
