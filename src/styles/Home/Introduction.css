@@ -1,0 +1,36 @@
+.jumbotron {
+    height: 100%;
+    display: flex;
+    background-color: var(--maize);
+    position: relative;
+    z-index: 3;
+}
+
+.header {
+    padding-left: 3vw;
+    padding-right: 3em;
+    padding-top: 10em;
+    padding-bottom: 5em;
+    z-index: 2;
+
+    width: 75%;
+}
+
+h1 {
+    font-weight: bold !important;
+    margin-bottom: 0.5em !important;
+}
+
+h2 {
+    margin-top: 0.5em !important;
+}
+
+h2 a {
+    color: black;
+
+    transition: color 0.3s ease-out;
+}
+
+h2 a:hover {
+    color: var(--beige);
+}

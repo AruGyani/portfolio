@@ -1,0 +1,57 @@
+.navbar {
+    padding-top: 1em !important;
+    padding-bottom: 1em !important;
+
+    padding-left: 3em;
+    padding-right: 3em;
+
+    background-color: transparent;
+}
+
+.logo {
+    color: black;
+    font-weight: 700;
+    
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+
+    -webkit-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+    -ms-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+}
+
+.logo:hover {
+    color: black;
+
+    transform: rotateX(40deg);
+    transform: rotateY(40deg);
+}
+
+.link {
+    margin-left: 1em;
+    margin-right: 1em;
+
+    text-transform: lowercase;
+    text-decoration: none;
+
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+
+    -webkit-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+    -ms-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+}
+
+.link:hover {
+    color: black;
+
+    transform: rotateX(45deg);
+}

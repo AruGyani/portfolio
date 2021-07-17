@@ -1,0 +1,30 @@
+@font-face {
+    font-family: LeagueSpartan;
+    src: url('./fonts/LeagueSpartan-Bold.otf');
+}
+
+:root {
+    --beige: #eae7de;
+    --maize: #e8c547;
+    --jet: #30323D;
+    --glaucous: #5c80bc;
+    --timber: #cdd1c4;
+}
+
+* {
+    font-family: LeagueSpartan, 'sans-serif';
+}
+
+body, html {
+    outline: none;
+}
+
+.fade-enter {
+    opacity: 0;
+    z-index: 1;
+}
+  
+.fade-enter.fade-enter-active {
+    opacity: 1;
+    transition: opacity 250ms ease-in;
+}
