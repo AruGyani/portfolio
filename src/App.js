@@ -38,6 +38,9 @@ function Content() {
             <Route exact path="/projects/desitrak">
               <DesiTrak/>
             </Route>
+            <Route exact path='/tetris'>
+              <Tetris/>
+            </Route>
             <Route path='*'>
               <div>Error. Page Not Found.</div>
             </Route>
